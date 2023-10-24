@@ -24,8 +24,8 @@ app.use(expressLayouts);
 
 // Simulated user for demonstration purposes
 const hardcodedUser = {
-    email: "choafeng080@gmail.com",
-    passwordHash: "williams"
+    email: "Favoursunday600@gmail.com",
+    passwordHash: "Favour"
 };
 
 const addtracker = {
@@ -67,7 +67,7 @@ function requireAuth(req, res, next) {
   }
 
 mongoose
-    .connect('mongodb+srv://richynaomi30:Required1234@cluster0.uewqabx.mongodb.net/blueeeeee', {
+    .connect('mongodb+srv://favour:Favoursu@cluster0.reaqoxi.mongodb.net/courier', {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
