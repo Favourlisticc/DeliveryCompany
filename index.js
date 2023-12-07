@@ -67,7 +67,7 @@ function requireAuth(req, res, next) {
   }
 
 mongoose
-    .connect('mongodb+srv://favour:Favoursu@cluster0.reaqoxi.mongodb.net/courier', {
+    .connect('mongodb+srv://favoursunday:favoursu55@cluster0.6es08zq.mongodb.net/favourcourier', {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
